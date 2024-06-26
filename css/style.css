@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0463FA;
+    --primary: #042F38;
     --light: #EFF5FF;
     --dark: #1B2C51;
 }
@@ -49,7 +49,7 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #FFFFFF;
+    color: #03fecd;
 }
 
 .btn-square {
@@ -516,4 +516,12 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+.logo-home {
+    width: 230px;
+}
+
+.icon-uro {
+    width: 35px;
 }
