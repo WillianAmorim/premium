@@ -8003,7 +8003,7 @@ fieldset:disabled .btn {
 }
 
 .p-5 {
-    padding: 1rem !important
+    padding: 3rem !important
 }
 
 .px-0 {
@@ -8462,6 +8462,10 @@ fieldset:disabled .btn {
 .invisible {
     visibility: hidden !important
 }
+
+/* .email {
+    font-size: 15px;
+} */
 
 @media (min-width: 576px) {
     .float-sm-start {
