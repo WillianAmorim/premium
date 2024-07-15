@@ -615,8 +615,8 @@ body {
 }
 
 .p-comentario {
-    /* color: white; */
-    color: #03fecd;
+    color: white;
+    /* color: #03fecd; */
     text-align: justify;
 }
 
@@ -637,7 +637,7 @@ body {
     justify-content: center;
 
     font-size: 70px;
-    color: #03fecd;
+    color:#03fecd;
 }
 
 @media only screen and (max-width: 768px) {
