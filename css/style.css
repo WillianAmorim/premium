@@ -645,6 +645,12 @@ body {
 }
 
 .p-comentario {
-    color: white;
+    /* color: white; */
+    color: #03fecd;
+    text-align: justify;
+}
+
+.h1-cards {
     text-align: center;
+    margin-bottom: 50px;
 }
