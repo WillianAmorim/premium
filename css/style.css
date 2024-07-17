@@ -646,3 +646,19 @@ body {
         width: 100%;
     }
 }
+
+.section-button {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+#button-verMais {
+    /* background-color: rebeccapurple; */
+    min-width: max-content;
+    padding: 15px;
+    border: 1px solid #042F38;
+    border-radius: 15px;
+    background-color: #042F38;
+    color: #03fecd;
+}
