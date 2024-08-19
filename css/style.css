@@ -580,21 +580,13 @@ body {
     height: min-content;
 }
 
-.div-especialidade-absolute {
+.div-especialidade-absolute {}
 
-}
+.div-especialidade-absolute h1 {}
 
-.div-especialidade-absolute h1 {
+.section-comentarios {}
 
-}
-
-.section-comentarios {
-
-}
-
-.section-comentarios h1 {
-
-}
+.section-comentarios h1 {}
 
 .section-comentarios p {
     width: 50%;
@@ -637,7 +629,7 @@ body {
     justify-content: center;
 
     font-size: 70px;
-    color:#03fecd;
+    color: #03fecd;
 }
 
 @media only screen and (max-width: 768px) {
@@ -662,3 +654,194 @@ body {
     background-color: #042F38;
     color: #03fecd;
 }
+
+/* PÁGINA ALUGUEL DE SALAS */
+
+.banner-page {
+    height: 100vh;
+    /* Define a altura como 100% do viewport */
+    background-image: url('../img/aluguel/home-aluguel.jpg');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    /* Faz a imagem cobrir todo o background */
+    background-repeat: no-repeat;
+    /* Impede que a imagem se repita */
+    background-position: center center;
+    /* Centraliza a imagem */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-banner-info {
+    width: 300px;
+    text-align: center;
+}
+
+.div-banner-info,
+.div-banner-info>h1,
+.div-banner-info>a {
+    color: white;
+}
+
+.div-banner-info>h1 {
+    font-size: 30px;
+}
+
+.div-banner-info>p {
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.div-banner-info>a {
+    background-color: #042F38;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.div-beneficios {
+    width: 100vw;
+}
+
+.div-beneficios>h1 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.div-cards {
+    padding: 25px;
+}
+
+.div-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: purple; */
+    gap: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.div-infraestrutura {
+    width: 100vw;
+    background-color: #03fecd;
+}
+
+.div-infraestrutura>h1 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.div-infos {
+    padding: 5px;
+    /* background-color: #03fecd; */
+    align-items: center;
+}
+
+.div-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+.div-info>img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+}
+
+/* CARROSEL */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* FINAL CARROSEL */
+
+/* INICIO FALE CONOSCO */
+.div-fale-conosco {
+    margin-top: 50px;
+    background-image: url('../img/aluguel/home-aluguel.jpg');
+    height: 50vh;
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    /* Faz a imagem cobrir todo o background */
+    background-repeat: no-repeat;
+    /* Impede que a imagem se repita */
+    background-position: center center;
+    /* Centraliza a imagem */
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 254, 205, 0.7);
+    /* Azul com 50% de opacidade */
+    z-index: 1;
+}
+
+.div-fale-conosco-info {
+    position: relative;
+    /* Isso permite que o z-index funcione */
+    z-index: 2;
+    /* Certifica que o texto fica por cima do overlay */
+    color: white;
+    /* Define a cor do texto, ajustável conforme necessário */
+    padding: 20px;
+    /* Ajuste conforme necessário */
+    text-align: center;
+    /* Centraliza o texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.div-fale-conosco-info > h1{
+    color: white;
+}
+
+.div-fale-conosco-info > a {
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    max-width: fit-content;
+}
+
+/* FINAL FALE CONOSCO */
